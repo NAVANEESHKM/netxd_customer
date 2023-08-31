@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.12.4
-// source: netxd_customer/customer.proto
+// source: protos/customer.proto
 
 package netxd_customer
 
@@ -101,5 +101,5 @@ var CustomerService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "netxd_customer/customer.proto",
+	Metadata: "protos/customer.proto",
 }

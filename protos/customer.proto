@@ -1,9 +1,10 @@
 syntax = "proto3";
 
-package netxd_customer;
+
 
 option go_package="github.com/NAVANEESHKM/netxd_customer";
 
+package netxd_customer;
 
 service CustomerService{
     rpc CreateCustomer (Customer)returns(CustomerResponse);
