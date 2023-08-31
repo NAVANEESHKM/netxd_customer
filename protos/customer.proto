@@ -1,7 +1,4 @@
 syntax = "proto3";
-
-
-
 option go_package="github.com/NAVANEESHKM/netxd_customer";
 
 package netxd_customer;
